@@ -1,5 +1,9 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaWordpress, FaNode } from 'react-icons/fa';
+import { SiMysql } from "react-icons/si";
+import ecommerceImg from '../assets/ecommerce.jpg';
+import unsplashImg from '../assets/unsplash.jpg';
+import mixmasterImg from '../assets/mixmaster.jpg';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -27,31 +31,49 @@ export const skills = [
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
+  {
+    id: nanoid(),
+    title: 'Wordpress',
+    icon: <FaWordpress className='h-16 w-16 text-emerald-500' />,
+    text: 'Create Wordpress responsive sites',
+  },
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNode className='h-16 w-16 text-emerald-500' />,
+    text: 'Build basic backend api',
+  },
+  {
+    id: nanoid(),
+    title: 'MySQL',
+    icon: <SiMysql className='h-16 w-16 text-emerald-500' />,
+    text: 'Manage data base with MySQL',
+  },
 ];
 
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: mixmasterImg,
+    url: 'https://drinks-mdlr.netlify.app/',
+    github: 'https://github.com/matidlr/mixmaster',
+    title: 'Mix Master',
+    text: 'Search drinks web. This site was created using React and consuming API with axios',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
+    img: ecommerceImg,
+    url: 'https://github.com/matidlr/e-commerce',
     github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    title: 'Ecommerce',
+    text: 'Ecommerce site using React.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: unsplashImg,
+    url: 'https://unsplash-11.netlify.app/',
+    github: 'https://github.com/matidlr/api-unsplash',
+    title: 'Unsplash',
+    text: 'Project created with React',
   },
 ];
