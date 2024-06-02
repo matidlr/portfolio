@@ -4,6 +4,7 @@ import { SiMysql } from "react-icons/si";
 import ecommerceImg from '../assets/ecommerce.jpg';
 import unsplashImg from '../assets/unsplash.jpg';
 import mixmasterImg from '../assets/mixmaster.jpg';
+import blog from '../assets/blog.png'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -75,5 +76,13 @@ export const projects = [
     github: 'https://github.com/matidlr/api-unsplash',
     title: 'Unsplash',
     text: 'Project created with React',
+  },
+  {
+    id: nanoid(),
+    img: blog,
+    url: 'https://mern-blog-m63m.onrender.com/',
+    github: 'https://github.com/matidlr/mern-blog',
+    title: 'BLOG',
+    text: 'Personal blog created with MERN',
   },
 ];
