@@ -5,6 +5,7 @@ import ecommerceImg from '../assets/ecommerce.jpg';
 import unsplashImg from '../assets/unsplash.jpg';
 import mixmasterImg from '../assets/mixmaster.jpg';
 import blog from '../assets/blog.png'
+import instagram from '../assets/instagram.jpg';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -84,5 +85,13 @@ export const projects = [
     github: 'https://github.com/matidlr/mern-blog',
     title: 'BLOG',
     text: 'Personal blog created with MERN',
+  },
+  {
+    id: nanoid(),
+    img: instagram,
+    url: 'https://insta-next-m8tq.onrender.com/',
+    github: 'https://github.com/matidlr/insta-next',
+    title: 'Instagram',
+    text: 'Instagram clone with Next.js',
   },
 ];
