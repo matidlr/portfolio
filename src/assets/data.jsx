@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaWordpress, FaNode } from 'react-icons/fa';
 import { SiMysql } from "react-icons/si";
-import cannon from '../assets/ecommercecannon.png';
+import cannon from '../assets/cannon.png';
 import jackie from '../assets/jackie.png';
 import key from '../assets/keith.png';
 import value from '../assets/value.png'
