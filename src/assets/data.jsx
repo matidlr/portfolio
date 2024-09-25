@@ -1,11 +1,11 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaWordpress, FaNode } from 'react-icons/fa';
 import { SiMysql } from "react-icons/si";
-import ecommerceImg from '../assets/ecommerce.jpg';
-import unsplashImg from '../assets/unsplash.jpg';
-import mixmasterImg from '../assets/mixmaster.jpg';
-import blog from '../assets/blog.png'
-import instagram from '../assets/instagram.jpg';
+import cannon from '../assets/ecommercecannon.png';
+import jackie from '../assets/jackie.png';
+import key from '../assets/keith.png';
+import value from '../assets/value.png'
+import petenatti from '../assets/petenatti.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -56,42 +56,42 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: mixmasterImg,
-    url: 'https://drinks-mdlr.netlify.app/',
-    github: 'https://github.com/matidlr/mixmaster',
-    title: 'Mix Master',
-    text: 'Search drinks web. This site was created using React and consuming API with axios',
+    img: value,
+    url: 'www.valuewds-com/',
+    github: '',
+    title: 'Value wds',
+    text: 'Ecommerce. This site was built witd wordpress, gutenberg and edited with CSS and Javascript',
   },
   {
     id: nanoid(),
-    img: ecommerceImg,
-    url: 'https://github.com/matidlr/e-commerce',
-    github: 'https://github.com/john-smilga',
-    title: 'Ecommerce',
-    text: 'Ecommerce site using React.',
+    img: cannon,
+    url: 'https://cannon.com.ar',
+    github: '',
+    title: 'Cannon',
+    text: 'Ecommerce site using wordpress, elementor, CSS, Jaascript and PHP.',
   },
   {
     id: nanoid(),
-    img: unsplashImg,
-    url: 'https://unsplash-11.netlify.app/',
-    github: 'https://github.com/matidlr/api-unsplash',
-    title: 'Unsplash',
-    text: 'Project created with React',
+    img: jackie,
+    url: 'https://jackiesmith.com.ar/',
+    github: '',
+    title: 'Jacke Smith',
+    text: 'Project created with Wordpress, CSS, Javascript and PHP',
   },
   {
     id: nanoid(),
-    img: blog,
-    url: 'https://mern-blog-m63m.onrender.com/',
-    github: 'https://github.com/matidlr/mern-blog',
-    title: 'BLOG',
-    text: 'Personal blog created with MERN',
+    img: petenatti,
+    url: 'https://jackiesmith.com.ar/',
+    github: '',
+    title: 'Petenatti',
+    text: 'Ecommerce created with wordpress, elementor, CSS, Javascript and woocomerce',
   },
   {
     id: nanoid(),
-    img: instagram,
-    url: 'https://insta-next-m8tq.onrender.com/',
-    github: 'https://github.com/matidlr/insta-next',
-    title: 'Instagram',
-    text: 'Instagram clone with Next.js',
+    img: key,
+    url: '5.	https://keywhoss.com.ar/',
+    github: '',
+    title: 'Key Whoss',
+    text: 'Developed with Wordpress, elementor, CSS, Javascript',
   },
 ];
