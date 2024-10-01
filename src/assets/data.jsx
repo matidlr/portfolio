@@ -57,7 +57,7 @@ export const projects = [
   {
     id: nanoid(),
     img: value,
-    url: 'www.valuewds-com/',
+    url: 'https://valuewds.com/',
     github: '',
     title: 'Value wds',
     text: 'Ecommerce. This site was built witd wordpress, gutenberg and edited with CSS and Javascript',
@@ -89,7 +89,7 @@ export const projects = [
   {
     id: nanoid(),
     img: key,
-    url: '5.	https://keywhoss.com.ar/',
+    url: 'https://keywhoss.com.ar/',
     github: '',
     title: 'Key Whoss',
     text: 'Developed with Wordpress, elementor, CSS, Javascript',
